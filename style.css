@@ -1,8 +1,3 @@
-.dark {
-  background-color: #313131;
-  color: #f1f1ff;
-}
-
 .list-item {
   list-style: none;
 }
@@ -10,10 +5,21 @@
 .big-header {
   font-size: xx-large;
 }
-body {
-  background-color: #313131;
-  color: white;
+
+
+/* dark theme */
+
+.darkTheme {
+  background-color: #282828;
+  color: azure;
 }
-* {
-  color: white;
+
+
+#toggle {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #615b5b;
+  border: 1px solid #615b5b;
+  border-radius: 4px;
 }
