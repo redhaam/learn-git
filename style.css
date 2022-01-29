@@ -1,5 +1,6 @@
 body {
   overflow-x: hidden;
+  margin: 0;
 }
 
 .list-item {
@@ -36,6 +37,8 @@ footer {
   position: absolute;
   bottom: 0;
   border-top: 2px solid white;
+  background: center radial-gradient(rgb(86, 113, 165), rgb(1, 4, 8));
+  color: white;
   width: 99%;
   text-align: center;
 }
@@ -45,6 +48,10 @@ footer ul {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+}
+
+footer a {
+  color: white;
 }
 span {
   color: red;
@@ -81,7 +88,7 @@ nav {
   margin: 0 20px;
   justify-content: flex-end;
 }
-ul {
+nav ul {
   display: flex;
   flex-direction: row;
   text-decoration: none;

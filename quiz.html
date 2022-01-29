@@ -2,22 +2,59 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <title>Page 2</title>
   </head>
   <body>
-    <h1>Take our quiz !</h1>
-    <form name="quiz">
-      <h3>question :</h3>
-      <p id="feedback"></p>
-      <p>How can we make our changes on git</p>
-      <textarea name="answer" id="quizAnswer" cols="30" rows="10"></textarea>
-      <div>
-        <button class="btn">Submit</button>
+    <nav>
+      <ul>
+        <li><a class="link" href="/">Home</a></li>
+        <li><a class="link" href="/quiz">Quiz</a></li>
+        <button id="toggle">Switch To Dark Theme</button>
+      </ul>
+    </nav>
+    <div>
+      <aside>
+        COLLAB Work
+        <ul>
+          <li id="liside">
+            <a href="/index.html">Home</a>
+          </li>
+          <li id="liside">DashBoard</li>
+          <li id="liside"><a href="/resources.html">resources</a></li>
+          <li id="liside">About Us</li>
+        </ul>
+      </aside>
+      <div id="main">
+        <h1>Take our quiz !</h1>
+        <form name="quiz">
+          <h3>question :</h3>
+          <p id="feedback"></p>
+          <p>How can we make our changes on git</p>
+          <textarea name="answer" id="quizAnswer" cols="30" rows="10"></textarea>
+          <div>
+            <button class="btn">Submit</button>
+          </div>
+        </form>
       </div>
-    </form>
-
-    </textarea>
+    </div>
+    <footer>
+      <ul>
+        <li><a href="#top">Top of page</a></li>
+        <li><a href="">Contact</a></li>
+        <li><a href="">About</a></li>
+      </ul>
+      <p>
+        A special thanks to our wonderfull developers:
+        <span>Imene</span>
+        <span>Hind</span>
+        <span>Redha</span>
+        <span>Abdelhafid</span>
+        <span>Ibrahim</span>
+        <span>Hichem</span>
+      </p>
+      <p>All rights reserved Gomycode</p>
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>
