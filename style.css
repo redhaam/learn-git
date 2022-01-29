@@ -10,14 +10,12 @@ body {
   font-size: xx-large;
 }
 
-
 /* dark theme */
 
 .darkTheme {
   background-color: #282828;
   color: azure;
 }
-
 
 #toggle {
   position: fixed;
@@ -69,4 +67,39 @@ aside {
   background: rgb(163, 180, 211);
   margin-bottom: 1em;
   text-align: center;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  max-width: 1000px;
+  margin: 0 20px;
+  justify-content: flex-end;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+
+  gap: 30px;
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+body {
+  font-size: large;
+  font-style: italic;
+  font-family: Quintessential;
+}
+button {
+  width: 80px;
+  height: 40px;
+  background-color: grey;
+  border-radius: 8px;
+  font-size: medium;
 }
