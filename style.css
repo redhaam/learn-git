@@ -1,6 +1,5 @@
-.dark {
-  background-color: #313131;
-  color: #f1f1ff;
+body {
+  overflow-x: hidden;
 }
 
 .list-item {
@@ -10,12 +9,66 @@
 .big-header {
   font-size: xx-large;
 }
-body {
-  background-color: #313131;
-  color: rgb(141, 138, 138);
+
+/* dark theme */
+
+.darkTheme {
+  background-color: #282828;
+  color: azure;
 }
-* {
-  color: white;
+
+#toggle {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  background-color: #615b5b;
+  border: 1px solid #615b5b;
+  border-radius: 4px;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  border-top: 2px solid white;
+  width: 99%;
+  text-align: center;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+span {
+  color: red;
+}
+header {
+  display: flex;
+  flex-direction: row;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  max-width: 1000px;
+  margin: 0 20px;
+  justify-content: flex-end;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+
+  gap: 30px;
+  list-style: none;
+}
+.link {
+  text-decoration: none;
 }
 body {
   font-size: large;
