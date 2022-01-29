@@ -48,6 +48,27 @@ footer ul {
 span {
   color: red;
 }
+aside {
+  top: 0px;
+  height: 100%;
+  width: 25%;
+  position: fixed;
+  background: center radial-gradient(rgb(86, 113, 165), rgb(1, 4, 8));
+}
+
+#main {
+  width: 74%;
+  top: 0px;
+  right: 0px;
+  position: absolute;
+}
+#liside {
+  border-radius: 8px;
+  background: rgb(163, 180, 211);
+  margin-bottom: 1em;
+  text-align: center;
+}
+
 header {
   display: flex;
   flex-direction: row;
