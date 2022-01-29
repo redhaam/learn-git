@@ -31,3 +31,9 @@ aside {
   right: 0px;
   position: absolute;
 }
+#liside {
+  border-radius: 8px;
+  background: rgb(86, 113, 165);
+  margin-bottom: 1em;
+  text-align: center;
+}
