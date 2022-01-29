@@ -17,10 +17,10 @@ body {
 * {
   color: white;
 }
-b1 {
+body {
   font-size: large;
   font-style: italic;
-  font-family: serif;
+  font-family: Quintessential;
 }
 button {
   width: 80px;
