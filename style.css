@@ -2,11 +2,6 @@ body {
   overflow-x: hidden;
 }
 
-.dark {
-  background-color: #313131;
-  color: #f1f1ff;
-}
-
 .list-item {
   list-style: none;
 }
@@ -14,14 +9,30 @@ body {
 .big-header {
   font-size: xx-large;
 }
-body {
-  background-color: #313131;
-  color: white;
-}
-* {
-  color: white;
+
+
+/* dark theme */
+
+.darkTheme {
+  background-color: #282828;
+  color: azure;
 }
 
+
+#toggle {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  background-color: #615b5b;
+  border: 1px solid #615b5b;
+  border-radius: 4px;
+  margin-top: 5px;
+  margin-right: 5px;
+}
 footer {
   position: absolute;
   bottom: 0;
