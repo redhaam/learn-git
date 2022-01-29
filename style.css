@@ -50,3 +50,25 @@ footer ul {
 span {
   color: red;
 }
+header {
+  display: flex;
+  flex-direction: row;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  max-width: 1000px;
+  margin: 0 20px;
+  justify-content: flex-end;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+
+  gap: 30px;
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
