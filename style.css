@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 .dark {
   background-color: #313131;
   color: #f1f1ff;
@@ -16,4 +20,22 @@ body {
 }
 * {
   color: white;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  border-top: 2px solid white;
+  width: 99%;
+  text-align: center;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+span {
+  color: red;
 }
