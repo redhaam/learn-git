@@ -1,6 +1,5 @@
-.dark {
-  background-color: #313131;
-  color: #f1f1ff;
+body {
+  overflow-x: hidden;
 }
 
 .list-item {
@@ -10,10 +9,97 @@
 .big-header {
   font-size: xx-large;
 }
-body {
-  background-color: #313131;
-  color: white;
+
+/* dark theme */
+
+.darkTheme {
+  background-color: #282828;
+  color: azure;
 }
-* {
-  color: white;
+
+#toggle {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  background-color: #615b5b;
+  border: 1px solid #615b5b;
+  border-radius: 4px;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  border-top: 2px solid white;
+  width: 99%;
+  text-align: center;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+span {
+  color: red;
+}
+aside {
+  top: 0px;
+  height: 100%;
+  width: 25%;
+  position: fixed;
+  background: center radial-gradient(rgb(86, 113, 165), rgb(1, 4, 8));
+}
+
+#main {
+  width: 74%;
+  top: 0px;
+  right: 0px;
+  position: absolute;
+}
+#liside {
+  border-radius: 8px;
+  background: rgb(163, 180, 211);
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  max-width: 1000px;
+  margin: 0 20px;
+  justify-content: flex-end;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+
+  gap: 30px;
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+body {
+  font-size: large;
+  font-style: italic;
+  font-family: Quintessential;
+}
+button {
+  width: 80px;
+  height: 40px;
+  background-color: grey;
+  border-radius: 8px;
+  font-size: medium;
 }

@@ -12,3 +12,16 @@ document.quiz.addEventListener("submit", (e) => {
     feedback.textContent = " wrong answer ! try again";
   }
 });
+// Hichem's script
+
+let toggleButton = document.querySelector("#toggle");
+
+let htmlBody = document.body;
+
+toggleButton.addEventListener("click", switchToDarkTheme);
+
+function switchToDarkTheme() {
+  htmlBody.classList.toggle("darkTheme");
+}
+
+// Hichem's script's end
