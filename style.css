@@ -3,6 +3,10 @@
   color: #f1f1ff;
 }
 
+.list-item {
+  list-style: none;
+}
+
 .big-header {
   font-size: xx-large;
 }
