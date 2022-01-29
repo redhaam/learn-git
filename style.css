@@ -17,3 +17,17 @@ body {
 * {
   color: white;
 }
+aside {
+  top: 0px;
+  height: 100%;
+  width: 25%;
+  position: fixed;
+  background: center radial-gradient(rgb(86, 113, 165), rgb(1, 4, 8));
+}
+
+#main {
+  width: 74%;
+  top: 0px;
+  right: 0px;
+  position: absolute;
+}
