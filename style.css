@@ -22,3 +22,10 @@ b1 {
   font-style: italic;
   font-family: serif;
 }
+button {
+  width: 80px;
+  height: 40px;
+  background-color: grey;
+  border-radius: 8px;
+  font-size: medium;
+}
